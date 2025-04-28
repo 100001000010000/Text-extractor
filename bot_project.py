@@ -27,7 +27,7 @@ model = whisper.load_model('large')
 import telebot
 from telebot import  types
 
-bot= telebot.TeleBot('7507077870:AAFUlhHQkbR_OM2Y_GXcV1F_TXs7lxoxdOg')
+bot= telebot.TeleBot('YOUR TOKEN')
 
 @bot.message_handler(commands=['start'])
 def send_welcom(message):
